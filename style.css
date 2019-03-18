@@ -842,7 +842,7 @@
   }  
   
    /* // Font-Awesome */
-   .fas, .far {
+::ng-deep.fas, .far {
     font-size: 150% !important;
     color: var(--text)!important;
   }
