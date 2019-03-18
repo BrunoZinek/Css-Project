@@ -73,26 +73,7 @@
     --zSearch: 10 !important;
   }
   
-  /* // Font-Awesome */
-  .fas, .far {
-    font-size: 150% !important;
-    color: var(--text);
-  }
-  .fa-white {
-    color: #fff;
-  }
-  
-  .fa-primary {
-    color: var(--primary);
-  }
-  
-  .fa-error {
-    color: var(--error);
-  }
-  
-  .fa-alert {
-    color: var(--alert);
-  }
+
   
   /** styles **/
   
@@ -860,3 +841,23 @@
     color: var(--error) !important;
   }  
   
+   /* // Font-Awesome */
+   .fas, .far {
+    font-size: 150% !important;
+    color: var(--text);
+  }
+  .fa-white {
+    color: #fff;
+  }
+  
+  .fa-primary {
+    color: var(--primary);
+  }
+  
+  .fa-error {
+    color: var(--error);
+  }
+  
+  .fa-alert {
+    color: var(--alert);
+  }
