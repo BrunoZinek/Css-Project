@@ -850,7 +850,7 @@ margin-bottom: 0 !important;
 }  
 
  /* // Font-Awesome */
-  .fas, .far, .fas::before, .far::before {
+  .fas::before, .far::before {
   font-size: 150% !important;
   color: var(--text)!important;
 }
