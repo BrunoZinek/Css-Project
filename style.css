@@ -73,7 +73,7 @@
     --zSearch: 10 !important;
   }
   
-  // Font-Awesome
+  /* // Font-Awesome */
   .fas, .far {
     font-size: 150% !important;
     color: var(--text);
