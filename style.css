@@ -260,10 +260,13 @@ body {
   border: 1px solid var(--success) !important;
 }
 
-button:disabled{
+button.disabled{
   color: var(--text) !important;
   border-color: var(--text) !important;
-  cursor: not-allowed;
+  cursor: not-allowed !important;
+}
+button.disabled:hover{
+  opacity: 1 !important;
 }
 
 
@@ -852,7 +855,6 @@ margin-bottom: 0 !important;
  /* // Font-Awesome */
   .fas::before, .far::before {
   font-size: 150% !important;
-  color: var(--text)!important;
 }
 .fa-white {
   color: #fff !important;
