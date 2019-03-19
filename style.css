@@ -871,3 +871,11 @@ margin-bottom: 0 !important;
 .fa-alert {
   color: var(--alert) !important;
 }
+
+*:read-only {
+  cursor: not-allowed !important;
+}
+
+*:read-only:focus{
+  border-color: var(--border) !important;
+}
