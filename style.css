@@ -879,3 +879,6 @@ input:read-only {
 input:read-only:focus{
   border-color: var(--border) !important;
 }
+.hide{
+  display: none !important;
+}
