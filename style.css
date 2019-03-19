@@ -872,10 +872,10 @@ margin-bottom: 0 !important;
   color: var(--alert) !important;
 }
 
-*:read-only {
+input:read-only {
   cursor: not-allowed !important;
 }
 
-*:read-only:focus{
+input:read-only:focus{
   border-color: var(--border) !important;
 }
