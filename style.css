@@ -854,7 +854,7 @@ margin-bottom: 0 !important;
 
  /* // Font-Awesome */
   .fas::before, .far::before {
-  font-size: 150% !important;
+  font-size: 20px!important;
 }
 .fa-white {
   color: #fff !important;
