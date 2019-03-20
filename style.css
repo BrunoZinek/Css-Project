@@ -272,6 +272,15 @@ button.disabled:hover{
 
 /* //card */
 
+.card {
+  box-shadow: var(--box-shadow) !important;
+  display: block !important;
+  height: auto !important;
+  border-radius: var(--curve) !important;
+  border: none !important;
+  background-color: var(--default) !important;
+  }
+
 .card-title {
   margin: 0 !important;
   padding: 0 !important;
