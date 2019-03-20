@@ -471,19 +471,19 @@ input[type="checkbox"]:checked + label:before {
   background-position: center center !important;
 }
 
-.icon-t {
+.icon-t::before {
   font-size: var(--iconT) !important;
 }
 
-.icon-s {
+.icon-s::before {
   font-size: var(--iconS) !important;
 }
 
-.icon-m {
+.icon-m::before {
   font-size: var(--iconM) !important;
 }
 
-.icon-g {
+.icon-g::before {
   font-size: var(--iconG) !important;
 }
 
