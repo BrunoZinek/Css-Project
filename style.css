@@ -913,12 +913,13 @@ input:read-only:focus{
 /* Position tooltip above the element */
 [data-tooltip]:before {
   position: absolute;
-  bottom: 150%;
+  bottom: 100%;
   left: 50%;
   margin-bottom: 5px;
   margin-left: -80px;
   padding: 7px;
-  width: 160px;
+  width: max-content;
+  max-width: 160px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -933,7 +934,7 @@ input:read-only:focus{
 /* Triangle hack to make tooltip look like a speech bubble */
 [data-tooltip]:after {
   position: absolute;
-  bottom: 150%;
+  bottom: 100%;
   left: 50%;
   margin-left: -5px;
   width: 0;
