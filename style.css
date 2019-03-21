@@ -916,7 +916,7 @@ input:read-only:focus{
   bottom: 100%;
   left: 50%;
   margin-bottom: 5px;
-  margin-left: -80px;
+  margin-left: -100%;
   padding: 7px;
   width: max-content;
   max-width: 160px;
