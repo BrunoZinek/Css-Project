@@ -954,3 +954,62 @@ input:read-only:focus{
   filter: 'progid: DXImageTransform.Microsoft.Alpha(Opacity=100)';
   opacity: 1;
 }
+
+/* Tabs*/
+.nav {
+  flex-wrap: nowrap;
+}
+  
+.nav-link {
+  background-color: var(--default) !important;
+  color: var(--text) Sec !important;
+  padding: 0 var(--size) !important;
+  line-height: var(--tabHeight) !important;
+  border: none !important;
+  border-bottom: 1px solid var(--border) !important;
+  transition: 0.1s !important;
+}
+
+.nav-link:hover {
+  color: var(--text) !important;
+}
+
+.nav-link.active {
+  position: relative !important;
+  border-bottom: 2px solid var(--primary) !important;
+
+}
+
+.nav-link.active span {
+  color: var(--primary) !important;
+  font-weight: 500 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-tabs {
+    max-height: var(--header) !important;
+    border-color: var(--border) !important;
+    border-radius: var(--curve) var(--curve) 0 0 !important;
+    background-color: var(--default) !important;
+  }
+  .nav-link {
+    color: var(--primary) !important;
+    line-height: calc(var(--header)- 2px) !important;
+    border-radius: var(--curve) var(--curve) 0 0 !important;
+    border: 1px solid transparent !important;
+    border-bottom: 1px solid var(--border) !important;
+    cursor: pointer !important;
+  }
+  .nav-link:hover span {
+    color: var(--primary) !important;
+  }
+  .nav-link.active {
+    background: transparent !important;
+    cursor: default !important;
+  }
+  .nav-link.active span {
+    color: var(--primary) !important;
+  }
+}
+
+
