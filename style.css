@@ -249,8 +249,8 @@ body {
   opacity: var(--opacity) !important;
 }
 
-.button-alert {
-  border: 1px solid var(--alert) !important;
+.button-error {
+  border: 1px solid var(--error) !important;
   color: var(--alert) !important;
 }
 
