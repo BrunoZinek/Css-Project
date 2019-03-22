@@ -251,7 +251,7 @@ body {
 
 .button-error {
   border: 1px solid var(--error) !important;
-  color: var(--alert) !important;
+  color: var(--error) !important;
 }
 
 .button-success {
