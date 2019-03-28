@@ -1002,7 +1002,8 @@ input:read-only:focus {
 
 @media print{
   .nav-tabs,
-  .card-footer,
+  .card-button,
+  .card-button-multi,
   button{
     display:none !important;
   }
