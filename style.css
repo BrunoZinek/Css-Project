@@ -795,6 +795,7 @@ hr {
 
 .form-control:focus {
   border-color: var(--border) !important;
+  box-shadow: none !important;
 }
 
 .invalid {
