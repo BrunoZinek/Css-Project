@@ -267,6 +267,15 @@ button.disabled:hover {
   opacity: 1 !important;
 }
 
+button:disabled {
+  color: var(--text) !important;
+  border-color: var(--text) !important;
+  cursor: not-allowed !important;
+}
+button:disabled:hover {
+  opacity: 1 !important;
+}
+
 /* //card */
 
 .card {
