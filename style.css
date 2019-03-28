@@ -999,3 +999,11 @@ input:read-only:focus {
     color: var(--primary) !important;
   }
 }
+
+@media print{
+  .nav-tabs,
+  .card-footer,
+  button{
+    display:none !important;
+  }
+}
